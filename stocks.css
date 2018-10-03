@@ -1,0 +1,35 @@
+body{
+    background-color: #283c5a;
+}
+#forma{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+#stockinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12pt;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+#searchField{
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    background-color: light-gray;
+    background-image: url('searchicon.png');
+    background-position: left; 
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-image: url('searchicon.png');
+    height: 50px;
+    background-color: #ffffee;
+    border: 3px solid #555;
+    border: 2px solid red;
+    border-radius: 10px;
+}
